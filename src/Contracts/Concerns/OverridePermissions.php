@@ -19,4 +19,6 @@ interface OverridePermissions
      * @default-value false
      */
     public function userCanNotWriteRelative(): bool;
+
+    public function userCanReview(): bool;
 }

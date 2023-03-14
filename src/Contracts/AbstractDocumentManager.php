@@ -31,6 +31,7 @@ abstract class AbstractDocumentManager
         'UserCanNotWriteRelative' => 'userCanNotWriteRelative',
         'UserCanRename' => 'canUserRename',
         'UserCanWrite' => 'canUserWrite',
+        'UserCanReview' => 'userCanReview',
 
         // File URl proprties
         'CloseUrl' => 'closeUrl',
