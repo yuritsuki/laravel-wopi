@@ -23,6 +23,6 @@ class ValidateProof
             return $next($request);
         }
 
-        return abort(500);
+        return abort(422);
     }
 }
