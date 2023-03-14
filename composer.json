@@ -1,17 +1,21 @@
 {
-    "name": "nagi/laravel-wopi",
+    "name": "yuritsuki/laravel-wopi",
     "description": "Wopi implementation in php Laravel",
     "keywords": [
-        "nagi",
         "laravel",
         "laravel-wopi"
     ],
-    "homepage": "https://github.com/nagi/laravel-wopi",
+    "homepage": "https://github.com/yuritsuki/laravel-wopi",
     "license": "MIT",
     "authors": [
         {
             "name": "Ahmed Nagi",
             "email": "ahmedflnagi@gmail.com",
+            "role": "Original Author"
+        },
+        {
+            "name": "Yuritsuki",
+            "email": "metavice@gmail.com",
             "role": "Developer"
         }
     ],
