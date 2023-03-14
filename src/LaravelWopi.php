@@ -48,11 +48,11 @@ class LaravelWopi implements WopiInterface
 
         $version = $document->version();
 
-        if (! $document->isLocked()) {
-            if ($document->size() !== 0) {
-                return response('', 409, [WopiInterface::HEADER_ITEM_VERSION => $version]);
-            }
-        }
+//        if (! $document->isLocked()) {
+//            if ($document->size() !== 0) {
+//                return response('', 409, [WopiInterface::HEADER_ITEM_VERSION => $version]);
+//            }
+//        }
 
         $lockHeader = $request->header(WopiInterface::HEADER_LOCK);
 
